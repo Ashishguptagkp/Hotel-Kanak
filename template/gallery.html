@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<section class="breadcrumb-area" style="background-image: url(/static/assets/img/bg/04.jpg);">
+    <div class="container">
+        <div class="breadcrumb-text">
+            <span>Hotel Kanak & Resort</span>
+            <h2 class="page-title">Gallery</h2>
+
+            <ul class="breadcrumb-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active">Gallery</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--====== BREADCRUMB PART END ======-->
+<!--====== GALLERY START ======-->
+<section class="gallery-wrappper pt-120 pb-120">
+    <div class="container">
+        <div class="gallery-loop">
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay=".3s">
+                <a href="{% static "assets/img/gallery/14.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/14.jpg" %}" alt="Images">
+                </a>
+            </div>
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay=".4s">
+                <a href="{% static "assets/img/gallery/16.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/16.jpg" %}" alt="Images">
+                </a>
+            </div>
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay=".5s">
+                <a href="{% static "assets/img/gallery/30.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/30.jpg" %}" alt="Images">
+                </a>
+            </div>
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay=".6s">
+                <a href="{% static "assets/img/gallery/40.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/40.jpg" %}" alt="Images">
+                </a>
+            </div>
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay=".7s">
+                <a href="{% static "assets/img/gallery/1.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/1.jpg" %}" alt="Images">
+                </a>
+            </div>
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay=".8s">
+                <a href="{% static "assets/img/gallery/25.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/25.jpg" %}" alt="Images">
+                </a>
+            </div>
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay=".9s">
+                <a href="{% static "assets/img/gallery/33.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/33.jpg" %}" alt="Images">
+                </a>
+            </div>
+            <div class="single-gallery-image wow fadeInUp" data-wow-delay="1.1s">
+                <a href="{% static "assets/img/gallery/11.jpg" %}" class="popup-image">
+                    <img src="{% static "assets/img/gallery/11.jpg" %}" alt="Images">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====== GALLERY END ======-->
+<!--====== Back to Top ======-->
+<a href="#" class="back-to-top" id="backToTop">
+    <i class="fal fa-angle-double-up"></i>
+</a>
+
+
+
+
+
+{% endblock content %}
